@@ -1,6 +1,6 @@
 # RISC-V Single Cycle Processor
 
-A modular **SystemVerilog** implementation of a **Single-Cycle RISC-V Processor** (RV32I subset).
+A modular **SystemVerilog** implementation of a **Single-Cycle RISC-V Processor**.
 
 ---
 
