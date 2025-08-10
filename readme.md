@@ -101,12 +101,6 @@ See **`report.pdf`** for complete theory, code listing, diagrams, and discussion
 
 ---
 
-## 🏆 Credits
-Developed and documented by **Nandini Agarwal**  
-*(GLA University, B.Tech EC - VLSI)*
-
----
-
 ## 📜 License
 Distributed under the terms in the [LICENSE](LICENSE) file.
 
