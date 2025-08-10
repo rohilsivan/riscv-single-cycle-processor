@@ -5,7 +5,7 @@ A modular **SystemVerilog** implementation of a **Single-Cycle RISC-V Processor*
 ---
 
 ## 📖 Overview
-This repository provides a complete single-cycle CPU architecture for the **RISC-V RV32I instruction set**.
+This repository provides a complete single-cycle CPU architecture for the **RISC-V instruction set**.
 
 It organizes all major modules—**instruction memory**, **register file**, **ALU**, **control units**, **testbench**—using a clean educational structure, with supporting schematics and simulation screenshots.
 
