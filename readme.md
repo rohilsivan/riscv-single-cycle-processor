@@ -22,33 +22,34 @@ It organizes all major modules—**instruction memory**, **register file**, **AL
 ---
 
 ## 📂 Directory Structure
+
 riscv-single-cycle-processor/
-├── .vscode/ # Editor settings (optional)
-├── rtl/ # SystemVerilog RTL source files
-│ ├── riscv_core.sv
-│ ├── pc_register.sv
-│ ├── instruction_memory.sv
-│ ├── register_file.sv
-│ ├── immediate_generator.sv
-│ ├── alu.sv
-│ ├── data_memory.sv
-│ ├── control_unit.sv
-│ └── alu_control.sv
-├── testbench/ # Testbench code
-│ └── tb_riscv_core.sv
-├── schematic/ # Block diagram screenshots
-│ ├── alu.png
-│ ├── alu_control.png
-│ ├── data_mem.png
-│ ├── imm_generator.png
-│ ├── pc_instuction_mem.png
-│ ├── reg_file.png
-│ └── schematic.png
-├── simulation/ # Simulation waveform/output screenshots
-│ └── simulation_image.png
+├── .vscode/                   # 🗂️ Editor settings (optional)
+├── rtl/                       # 🗂️ SystemVerilog RTL source files
+│   ├── riscv_core.sv
+│   ├── pc_register.sv
+│   ├── instruction_memory.sv
+│   ├── register_file.sv
+│   ├── immediate_generator.sv
+│   ├── alu.sv
+│   ├── data_memory.sv
+│   ├── control_unit.sv
+│   └── alu_control.sv
+├── testbench/                 # 🗂️ Testbench code
+│   └── tb_riscv_core.sv
+├── schematic/                 # 🗂️ Block diagram screenshots
+│   ├── alu.png
+│   ├── alu_control.png
+│   ├── data_mem.png
+│   ├── imm_generator.png
+│   ├── pc_instuction_mem.png
+│   ├── reg_file.png
+│   └── schematic.png
+├── simulation/                # 🗂️ Simulation waveform/output screenshots
+│   └── simulation_image.png
 ├── .gitignore
 ├── LICENSE
-├── report.pdf # Full project report
+└── report.pdf                 # 📄 Full project report
 
 
 ---
