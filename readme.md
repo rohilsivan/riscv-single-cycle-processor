@@ -18,40 +18,6 @@ It organizes all major modules—**instruction memory**, **register file**, **AL
 - **J-type**: `jal`
 
 > Designed for **learning, simulation,** and as a base for further extension (pipelining, hazards, etc.).
-
----
-
-## 📂 Directory Structure
-
-riscv-single-cycle-processor/
-├── .vscode/                   # 🗂️ Editor settings (optional)
-├── rtl/                       # 🗂️ SystemVerilog RTL source files
-│   ├── riscv_core.sv
-│   ├── pc_register.sv
-│   ├── instruction_memory.sv
-│   ├── register_file.sv
-│   ├── immediate_generator.sv
-│   ├── alu.sv
-│   ├── data_memory.sv
-│   ├── control_unit.sv
-│   └── alu_control.sv
-├── testbench/                 # 🗂️ Testbench code
-│   └── tb_riscv_core.sv
-├── schematic/                 # 🗂️ Block diagram screenshots
-│   ├── alu.png
-│   ├── alu_control.png
-│   ├── data_mem.png
-│   ├── imm_generator.png
-│   ├── pc_instuction_mem.png
-│   ├── reg_file.png
-│   └── schematic.png
-├── simulation/                # 🗂️ Simulation waveform/output screenshots
-│   └── simulation_image.png
-├── .gitignore
-├── LICENSE
-└── report.pdf                 # 📄 Full project report
-
-
 ---
 
 ## 🚀 How to Use
@@ -62,7 +28,7 @@ All main CPU modules are in the `rtl/` folder.
 ### **2. Run Simulation**
 Use a Verilog/SystemVerilog simulator such as **Icarus Verilog**, **Vivado**, or **ModelSim**.  
 Compile and simulate the testbench in:
-testbench/tb_riscv_core.sv
+`testbench/tb_riscv_core.sv`
 
 
 ### **3. View Schematics & Simulation**
