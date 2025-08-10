@@ -1,0 +1,43 @@
+# Ignore simulation and synthesis outputs
+sim/
+*.log
+*.vcd
+*.dmp
+*.wdb
+*.jou
+*.str
+*.tcl
+*.out
+*.dat
+*.rpt
+*.chk
+*.debug
+*.xml
+*.tmp
+
+# Ignore Vivado/Icarus/ModelSim/Quartus project folders if used
+*.xpr
+*.ip_user_files/
+*.sim/
+*.runs/
+*.hw/
+*.cache/
+*.webtalk/
+*.svf
+*.db
+
+# Ignore backups, editor files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore PDF build artifacts
+*.aux
+*.toc
+*.lof
+*.lot
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
