@@ -23,7 +23,7 @@ It organizes all major modules—**instruction memory**, **register file**, **AL
 ## 🚀 How to Use
 
 ### **1. Open RTL Design Files**
-All main CPU modules are in the `rtl/` folder.
+All main modules are in the `rtl/` folder.
 
 ### **2. Run Simulation**
 Use a Verilog/SystemVerilog simulator such as **Icarus Verilog**, **Vivado**, or **ModelSim**.  
